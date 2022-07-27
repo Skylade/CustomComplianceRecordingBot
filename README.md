@@ -26,12 +26,12 @@ This section walks you through the process of deploying and testing the sample b
 ### Create an Application Instance
 
 Open powershell (in admin mode) and run the following commands. When prompted for authentication, login with the tenant admin.
-  * `> Import-Module SkypeOnlineConnector`
-  * `> $userCredential�=�Get-Credential`
-  * `> $sfbSession�=�New-CsOnlineSession�-Credential�$userCredential�-Verbose`
-  * `> Import-PSSession $sfbSession`
-  * `> New-CsOnlineApplicationInstance -UserPrincipalName <upn@contoso.com> -DisplayName <displayName> -ApplicationId <your_botappId>`
-  * `> Sync-CsOnlineApplicationInstance -ObjectId <objectId>`
+* `> Import-Module SkypeOnlineConnector`
+* `> $userCredential = Get-Credential`
+* `> $sfbSession = New-CsOnlineSession -Credential $userCredential -Verbose`
+* `> Import-PSSession $sfbSession`
+* `> New-CsOnlineApplicationInstance -UserPrincipalName <upn@contoso.com> -DisplayName <displayName> -ApplicationId <your_botappId>`
+* `> Sync-CsOnlineApplicationInstance -ObjectId <objectId>`
 
 ### Create a Compliance Recording Policy
 Requires the application instance ID created above. Continue your powershell session and run the following commands.
