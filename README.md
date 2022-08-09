@@ -1,6 +1,6 @@
 # CustomComplianceRecordingBot
 
-| [Documentation](https://github.com/shawnlien/CustomComplianceRecordingBot/blob/main/Wiki) | [Architecture](https://github.com/shawnlien/CustomComplianceRecordingBot/blob/main/Wiki/Architecture.md) | [Deployment guide](https://github.com/shawnlien/CustomComplianceRecordingBot/blob/main/Wiki/DeploymentGuide.md) | [PowerShell](https://github.com/shawnlien/CustomComplianceRecordingBot/blob/main/Wiki/PowerShell.md) |
+| [Documentation](https://github.com/shawnlien/CustomComplianceRecordingBot/blob/main/Wiki) | [Architecture](https://github.com/shawnlien/CustomComplianceRecordingBot/blob/main/Wiki/Architecture.md) | [Deployment guide](https://github.com/shawnlien/CustomComplianceRecordingBot/blob/main/Wiki/DeploymentGuide.md) | [Power Shell](https://github.com/shawnlien/CustomComplianceRecordingBot/blob/main/Wiki/PowerShell.md) |
 | ---- | ---- | ---- | ---- |
 
 # Introduction
