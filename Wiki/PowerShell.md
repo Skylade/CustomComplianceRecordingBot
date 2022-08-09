@@ -11,26 +11,26 @@
 
 ## Create an application access policy that contains a list of application IDs
 * New-CsApplicationAccessPolicy -Identity {AccessPolicyName} -AppIds {"ApplicationID"} -Description {"Access Policy Description"}
-** The AppIds parameter is the Application (client) ID of AAD App registrations.
+>**Note:** The AppIds parameter is the Application (client) ID of AAD App registrations.
 
 ## Grant the strategy to users to allow the user granted by the application ID included in the strategy to access the online meeting on behalf of the granted user (it will take about 30minutes to take effect)
 * Grant-CsApplicationAccessPolicy -PolicyName {AccessPolicyName} -Identity {"UserObjectId"}
-** The Identity parameter is the ObjectId of the AAD User.
+>**Note:** The Identity parameter is the ObjectId of the AAD User.
 
 ## Create an application instance (here you will get the ObjectId of the Application Instance User)
 * New-CsOnlineApplicationInstance -UserPrincipalName {UserUPN} -DisplayName {UserDisplayName} -ApplicationId {ApplicationID}
-** The ApplicationId parameter is the Application (client) ID of the AAD App registrations. 
+>**Note:** The ApplicationId parameter is the Application (client) ID of the AAD App registrations. 
 
 ## Synchronize the application instance from AAD to the proxy provisioning service
 * Sync-CsOnlineApplicationInstance -ObjectId {UserObjectId}
-** The ObjectId parameter value will be obtained by the above establishment instruction.
+>**Note:** The ObjectId parameter value will be obtained by the above establishment instruction.
 
 ## Create a compliance recording policy (wait about 1-2 minutes)
 * New-CsTeamsComplianceRecordingPolicy -Enabled $true -Description {"Policy Description"} {ComplianceRecordingPolicyName}	
 
 ## Assign the User to apply the Policy
 * Set-CsTeamsComplianceRecordingPolicy -Identity {ComplianceRecordingPolicyName}  -ComplianceRecordingApplications ` @(New-CsTeamsComplianceRecordingApplication -Parent {ComplianceRecordingPolicyName} -Id {UserObjectId})
-** The Id parameter is the ObjectId of the application instance.
+>**Note:** The Id parameter is the ObjectId of the application instance.
 
 ## Give users a compliance recording policy
 * Grant-CsTeamsComplianceRecordingPolicy -Identity {UserUPN} -PolicyName {ComplianceRecordingPolicyName}
