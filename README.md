@@ -1,6 +1,6 @@
 # CustomComplianceRecordingBot
 
-| [Documentation](https://github.com/shawnlien/CustomComplianceRecordingBot/blob/main/Wiki) | [Deployment guide](https://github.com/shawnlien/CustomComplianceRecordingBot/blob/main/Wiki/Architecture.md) | [Architecture](https://github.com/shawnlien/CustomComplianceRecordingBot/blob/main/Wiki/Architecture.md) |
+| [Documentation](https://github.com/shawnlien/CustomComplianceRecordingBot/blob/main/Wiki) | [Deployment guide](https://github.com/shawnlien/CustomComplianceRecordingBot/blob/main/Wiki/Deployment Guide.md) | [Architecture](https://github.com/shawnlien/CustomComplianceRecordingBot/blob/main/Wiki/Architecture.md) |
 | ---- | ---- | ---- |
 
 # Introduction
