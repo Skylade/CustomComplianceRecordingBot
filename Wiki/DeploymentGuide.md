@@ -82,3 +82,17 @@
 
 ## M365 Admin Center (https://admin.microsoft.com/)
 ### Grant the user authorization
+
+![DG20.png](images/DG20.png)
+
+## Power Shell (executed as an administrator)
+[Please refer to Power Shell](https://github.com/shawnlien/CustomComplianceRecordingBot/blob/main/Wiki/PowerShell.md)
+
+## Teams Admin (https://admin.teams.microsoft.com/)
+### Add users to the teams channel
+
+![DG21.png](images/DG21.png)
+
+![DG22.png](images/DG22.png)
+
+![DG23.png](images/DG23.png)
