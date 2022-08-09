@@ -29,3 +29,19 @@
 * Set access principles
 
 ![DG8.png](images/DG8.png)
+
+### Create Storage Account
+
+![DG9.png](images/DG9.png)
+
+* Copy blob service endpoint
+
+![DG10.png](images/DG10.png)
+
+* Copy access key
+
+![DG11.png](images/DG11.png)
+
+## Azure AD
+### Application registration
+
