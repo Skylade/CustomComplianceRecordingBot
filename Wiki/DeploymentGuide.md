@@ -96,3 +96,55 @@
 ![DG22.png](images/DG22.png)
 
 ![DG23.png](images/DG23.png)
+
+## Teams (https://teams.microsoft.com/)
+### Get ChannelId
+>**Note:** Record the ChannelId
+
+![DG24.png](images/DG24.png)
+
+## Share Point (https://xxxxxx.sharepoint.com/)
+### Get the SiteId
+>**Note:** Record the SiteId
+
+![DG25.png](images/DG25.png)
+
+### Create recordings folder (/General/Recordings)
+
+![DG26.png](images/DG26.png)
+
+## Source Code
+### Modify \Source\BotService\LocalMedia\ComplianceRecordingBot\ServiceConfiguration.Cloud.cscfg
+### Modify \Source\BotService\LocalMedia\ComplianceRecordingBot\ServiceConfiguration.Local.cscfg
+### Modify \Source\BotService\LocalMedia\ComplianceRecordingBot\WorkerRole\ComplianceRecordingBot.WorkerRole.dll.config
+
+![DG31.png](images/DG31.png)
+
+## Visual Studio
+### Release of Cloud Service (Extended Support)
+
+![DG27.png](images/DG27.png)
+
+![DG28.png](images/DG28.png)
+
+![DG29.png](images/DG29.png)
+
+![DG30.png](images/DG30.png)
+
+## Copy the files into the VM and install them
+* VC_redist.x64.exe
+* PowerShell-7.2.2-win-x64.msi
+
+### Execute PowerShell
+* Install module: 
+Install-Module -Name MicrosoftTeams -Force -AllowClobber
+
+* Import Module: 
+Import-Module MicrosoftTeams
+
+* Get the module installation path: 
+Get-Module -ListAvailable -Name MicrosoftTeams
+
+* Add the module installation path to the system environment variable
+
+* Restart the VM
