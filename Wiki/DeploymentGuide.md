@@ -11,8 +11,7 @@
 
 ![DG2.png](images/DG2.png)
 
-* Enable the calling
-* Set webhook
+* Enable the calling and set webhook
 
 ![DG3.png](images/DG3.png)
 

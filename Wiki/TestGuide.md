@@ -1,6 +1,6 @@
 # Test Guide
 
-## Call Web API to  get the teams meeting link.
+## Call web API to create teams online meeting and get the meeting joinWebUrl.
 
 * Request
 
