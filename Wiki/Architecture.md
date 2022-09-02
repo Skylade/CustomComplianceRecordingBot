@@ -36,3 +36,19 @@ After joining the meeting, bot will subscribe meeting event and automatically st
 Download meeting recording files from specified SharePoint location.
 
 ---
+
+## The Graph API used
+API Name | Method | Endpoint | Reference 
+--- | --- | --- | --- 
+Get a user | GET | https://graph.microsoft.com/v1.0/users/{id or userPrincipalName} | [Article](https://docs.microsoft.com/en-us/graph/api/user-get?view=graph-rest-1.0&tabs=http)
+Get onlineMeeting | GET | https://graph.microsoft.com/v1.0/users/{userId}/onlineMeetings/{meetingId} | [Article](https://docs.microsoft.com/en-us/graph/api/onlinemeeting-get?view=graph-rest-1.0&tabs=http)
+Create onlineMeeting | POST | https://graph.microsoft.com/v1.0/users/{userId}/onlineMeetings | [Article](https://docs.microsoft.com/en-us/graph/api/application-post-onlinemeetings?view=graph-rest-1.0&tabs=http)
+Get a site | GET | https://graph.microsoft.com/v1.0/sites/{hostname}:/{server-relative-path} | [Article](https://docs.microsoft.com/en-us/graph/api/site-get?view=graph-rest-1.0&tabs=csharp)
+Enumerate lists in a site | GET | https://graph.microsoft.com/v1.0/sites/{site-id}/lists | [Article](https://docs.microsoft.com/en-us/graph/api/list-list?view=graph-rest-1.0&tabs=http)
+Enumerate items in a list | GET | https://graph.microsoft.com/v1.0/sites/{site-id}/lists/{list-id}/items | [Article](https://docs.microsoft.com/en-us/graph/api/listitem-list?view=graph-rest-1.0&tabs=http)
+Get Drive | GET | https://graph.microsoft.com/v1.0/sites/{siteId}/drive | [Article](https://docs.microsoft.com/en-us/graph/api/drive-get?view=graph-rest-1.0&tabs=http)
+Get a driveItem | GET | https://graph.microsoft.com/v1.0/sites/{site-id}/lists/{list-id}/items/{item-id}/driveItem | [Article](https://docs.microsoft.com/en-us/graph/api/driveitem-get?view=graph-rest-1.0&tabs=http)
+List children of a driveItem | GET | https://graph.microsoft.com/v1.0/sites/{site-id}/drive/items/{item-id}/children | [Article](https://docs.microsoft.com/en-us/graph/api/driveitem-list-children?view=graph-rest-1.0&tabs=http)
+Get a driveItem | GET | https://graph.microsoft.com/v1.0/drives/{drive-id}/items/{item-id} | [Article](https://docs.microsoft.com/en-us/graph/api/driveitem-get?view=graph-rest-1.0&tabs=http)
+Delete a DriveItem | DELETE | https://graph.microsoft.com/v1.0/drives/{drive-id}/items/{item-id} | [Article](https://docs.microsoft.com/en-us/graph/api/driveitem-delete?view=graph-rest-1.0&tabs=http)
+Delete a DriveItem | DELETE | https://graph.microsoft.com/v1.0/sites/{siteId}/drive/items/{itemId} | [Article](https://docs.microsoft.com/en-us/graph/api/driveitem-delete?view=graph-rest-1.0&tabs=http)
