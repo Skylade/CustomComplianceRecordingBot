@@ -9,9 +9,29 @@ Custom compliance recording bot for Teams online meeting.
 
 ## About
 
-The Compliance Recording bot sample guides you through building, deploying and testing a bot. This sample demonstrates how a bot can receive media streams for recording.
+The compliance recording bot sample guides you through building, deploying and testing a bot. This sample demonstrates how a bot can receive media streams for recording.
 
-## Getting Started
+## Disclaimer
+
+THIS CODE IS PROVIDED AS IS WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.
+
+## Legal Notice
+
+This compliance recording bot sample is provided under the [MIT License](https://github.com/shawnlien/CustomComplianceRecordingBot/blob/master/LICENSE) terms.  In addition to these terms, by using this compliance recording bot sample you agree to the following:
+
+- You, not Microsoft, will license the use of your app to users or organization. 
+
+- This compliance recording bot sample is not intended to substitute your own regulatory due diligence or make you or your app compliant with respect to any applicable regulations, including but not limited to privacy, healthcare, employment, or financial regulations.
+
+- You are responsible for complying with all applicable privacy and security regulations including those related to use, collection and handling of any personal data by your app. This includes complying with all internal privacy and security policies of your organization if your app is developed to be sideloaded internally within your organization. Where applicable, you may be responsible for data related incidents or data subject requests for data collected through your app.
+
+- Any trademarks or registered trademarks of Microsoft in the United States and/or other countries and logos included in this repository are the property of Microsoft, and the license for this project does not grant you rights to use any Microsoft names, logos or trademarks outside of this repository. Microsoft’s general trademark guidelines can be found [here](https://www.microsoft.com/en-us/legal/intellectualproperty/trademarks/usage/general.aspx).
+
+- If the compliance recording bot sample enables access to any Microsoft Internet-based services (e.g., Office365), use of those services will be subject to the separately-provided terms of use. In such cases, Microsoft may collect telemetry data related to compliance recording bot sample usage and operation. Use and handling of telemetry data will be performed in accordance with such terms of use.
+
+- Use of this compliance recording bot sample does not guarantee acceptance of your app to the Teams app store. To make this app available in the Teams app store, you will have to comply with the [submission and validation process](https://docs.microsoft.com/en-us/microsoftteams/platform/concepts/deploy-and-publish/appsource/publish), and all associated requirements such as including your own privacy statement and terms of use for your app.
+
+# Getting Started
 
 This section walks you through the process of deploying and testing the sample bot.
 
