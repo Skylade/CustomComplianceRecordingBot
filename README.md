@@ -110,7 +110,7 @@ This compliance recording bot sample is provided under the [MIT License](https:/
 
 - You are responsible for complying with all applicable privacy and security regulations including those related to use, collection and handling of any personal data by your app. This includes complying with all internal privacy and security policies of your organization if your app is developed to be sideloaded internally within your organization. Where applicable, you may be responsible for data related incidents or data subject requests for data collected through your app.
 
-- Any trademarks or registered trademarks of Systex in the United States and/or other countries and logos included in this repository are the property of Systex, and the license for this project does not grant you rights to use any Systex names, logos or trademarks outside of this repository. Systex’s copyright and privacy statement can be found [here](https://tw.systex.com/privacy/).
+- Any trademarks or registered trademarks of Systex in the United States and/or other countries and logos included in this repository are the property of Systex, and the license for this project does not grant you rights to use any Systex names, logos or trademarks outside of this repository.
 
 - If the compliance recording bot sample enables access to any Microsoft Internet-based services (e.g., Office365), use of those services will be subject to the separately-provided terms of use. In such cases, Microsoft may collect telemetry data related to compliance recording bot sample usage and operation. Use and handling of telemetry data will be performed in accordance with such terms of use.
 
